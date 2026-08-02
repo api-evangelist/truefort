@@ -1,7 +1,25 @@
 aid: truefort
-name: Truefort
-description: Truefort is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: TrueFort
+description: TrueFort was a zero-trust lateral-movement protection platform for enterprise
+  workloads, providing real-time microsegmentation, service account protection, file
+  integrity monitoring, and workload hardening driven by continuous application behavior
+  analysis, with integrations for CrowdStrike, SentinelOne, and Armis. Backed by Canaan
+  Partners and other investors through a $30M Series B, the company ceased operations
+  on May 21, 2025.
+  TrueFort never published a public API, developer portal, SDKs, or machine-readable
+  specifications.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://truefort.com/wp-content/uploads/2025/05/TrueFort-Horizontal-Turquoise-White-RGBLRG-300x83-2.png
 url: https://raw.githubusercontent.com/api-evangelist/truefort/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,44 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-defunct-date: '2025-05-21'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Cybersecurity
+- Microsegmentation
+- Zero Trust
+- Lateral Movement
+- Workload Security
+- Service Accounts
+- Defunct
 apis: []
+common:
+- name: TrueFort Website
+  type: Website
+  url: https://truefort.com/
+- name: TrueFort Blog
+  type: Blog
+  url: https://truefort.com/blog/
+- name: TrueFort Privacy Policy
+  type: PrivacyPolicy
+  url: https://truefort.com/privacy-policy/
+- name: TrueFort Domain Security Posture
+  type: DomainSecurity
+  url: security/truefort-domain-security.yml
+- name: TrueFort llms.txt
+  type: LLMsTxt
+  url: llms/truefort-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

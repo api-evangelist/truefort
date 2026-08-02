@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: probed
+source: dig + TLS/HTTP probes (API Evangelist enrichment pipeline)
+note: >-
+  TrueFort ceased operations on 2025-05-21 (shutdown notice on truefort.com).
+  The marketing site remains online behind a WP Engine edge that rejects
+  non-browser TLS clients (handshake alert 40 for curl/LibreSSL, OpenSSL,
+  and Python probes; plain HTTP on port 80 answers 409), so HTTPS/TLS/HSTS
+  fields could not be observed from this vantage even though the site is
+  reachable in browsers and by archive crawlers. DNS records were probed
+  directly and are authoritative.
+hosts:
+  - host: truefort.com
+    https: null
+    tls_probe: handshake-rejected (TLS alert 40; edge blocks non-browser TLS fingerprints)
+    http_port_80_status: 409
+    hsts: null
+  - host: www.truefort.com
+    https: null
+    tls_probe: handshake-rejected (TLS alert 40; edge blocks non-browser TLS fingerprints)
+    hsts: null
+domains:
+  - domain: truefort.com
+    dnssec: false
+    caa: []
+    spf: true
+    spf_record: 'v=spf1 include:spf.protection.outlook.com include:_spf.salesforce.com
+      include:m.lessonly.com include:_spf.psm.knowbe4.com -all'
+    dmarc: false
+    mx:
+      - truefort-com.mail.protection.outlook.com
