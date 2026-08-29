@@ -8,6 +8,17 @@ description: TrueFort was a zero-trust lateral-movement protection platform for 
   on May 21, 2025.
   TrueFort never published a public API, developer portal, SDKs, or machine-readable
   specifications.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
