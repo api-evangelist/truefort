@@ -32,6 +32,9 @@ accessModel:
   method: derived
 image: https://truefort.com/wp-content/uploads/2025/05/TrueFort-Horizontal-Turquoise-White-RGBLRG-300x83-2.png
 url: https://raw.githubusercontent.com/api-evangelist/truefort/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "TrueFort never published a public API, developer portal, SDKs, or machine-readable specifications."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
